@@ -1,0 +1,27 @@
+        body {
+            font-family: sans-serif;
+        }
+
+        a[href^="https://www.google.com"] {
+            color: green;
+        }
+
+        a[target="_blank"] {
+            color: red;
+        }
+
+        #first-div > p::after {
+            content: " - NEW";
+            color: yellow;
+        }
+
+        #second-div p:nth-child(even) {
+            color: red;
+        }
+        #second-div p:nth-child(odd) {
+            color: blue;
+        }
+
+        body > p:nth-last-child(1):hover {
+            font-style: italic;
+        }
